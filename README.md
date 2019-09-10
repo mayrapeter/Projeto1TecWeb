@@ -1,1 +1,15 @@
 # Projeto1TecWeb
+
+CREATE TABLE notas(
+ id INT NOT NULL,
+ nome VARCHAR(32) NOT NULL,
+ nota	VARCHAR(128)
+);	
+
+
+CREATE TABLE pessoa(
+ id INT NOT NULL AUTO_INCREMENT,
+ nome VARCHAR(32) NOT NULL,
+ senha VARCHAR(32),
+ PRIMARY KEY (id)
+);
