@@ -23,15 +23,14 @@
 		<h3>Alterar nota</h3>
 		<form action="./AlterarNotaServlet" method="post"> 
 			<input class="pequenos" type="hidden" name="id"  value="<%=id%>"> 
-			<br>
 			<input class="pequenos" type="hidden" name="id_autor"  value="<%=id_autor%>"> 
-			<br>
+			
 	        <input class="pequenos" type="hidden" name="nome" value="<%=nome%>"> 
-			<br>
+			
 			<input class="pequenos" type="hidden" name="nome_autor" value="<%=nome_autor%>"> 
-			<br>
+			
 			<input class="pequenos" type="hidden" name="nota" value="<%=nota%>"> 
-			<br>
+			
 			Nota: <input class="pequenos" type="text" name="nova_nota" value="<%=nota%>"> 
 			<br>
 			<input type="submit" name="alterar" value="Alterar">
